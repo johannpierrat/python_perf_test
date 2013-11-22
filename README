@@ -6,3 +6,4 @@ Theses case are currently:
   ->   == vs is
   ->   while condition vs while 1 with try/catch
   ->   loop for a list
+  ->   For native vs map

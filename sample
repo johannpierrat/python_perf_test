@@ -1,0 +1,54 @@
+----------------------------------
+File test/is_test.py
+----------------------------------
+Comparing == and 'is' for None evaluation
+Result:
+with '==': 0.040203s
+with 'is': 0.023883s
+difference 0.016320s
+
+Comparing != and 'is not' for None evaluation
+Result:
+with '!=': 0.040107s
+with 'is not': 0.024099s
+difference 0.016008s
+
+Comparing == and 'is' for True evaluation
+Result:
+with '==': 0.041244s
+with 'is': 0.035748s
+difference 0.005496s
+
+Comparing != and 'is not' for True evaluation
+Result:
+with '!=': 0.040851s
+with 'is not': 0.034694s
+difference 0.006157s
+
+----------------------------------
+File test/list_loop_test.py
+----------------------------------
+test 1: simple
+test 2: array
+test 3: map
+simple loop: 6.885885s
+array loop: 2.904241s
+map loop: 4.557655s
+
+----------------------------------
+File test/map_test.py
+----------------------------------
+Test native
+Test map
+Native:     140.798425s
+Map:        90.746781s
+Diffenrece: 50.051644s
+
+----------------------------------
+File test/while_test.py
+----------------------------------
+test if
+Test try
+with if  11.379781s
+with try 6.005711s
+
