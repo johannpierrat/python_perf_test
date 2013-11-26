@@ -1,9 +1,0 @@
-#!/bin/sh
-
-for file in $(ls test/*.py); do
-  echo "----------------------------------"
-  echo "File $file"
-  echo "----------------------------------"
-  python $file
-  echo ""
-done
