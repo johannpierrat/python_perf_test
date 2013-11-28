@@ -1,54 +1,54 @@
-----------------------------------
-File test/is_test.py
-----------------------------------
+-----------------------------
+append_array
+-----------------------------
+time +=         1.067951s
+time for append 6.205307s
+-----------------------------
+array_init_test
+-----------------------------
+1D Array
+Array initialize 4.980765s
+Array append 6.795822s
+2D Array
+Array initialized 2d Once   8.187469s
+Array initialized 1d + loop 9.883670s
+-----------------------------
+is_test
+-----------------------------
 Comparing == and 'is' for None evaluation
-Result:
-with '==': 0.040203s
-with 'is': 0.023883s
-difference 0.016320s
-
+with '==': 0.040878s
+with 'is': 0.025595s
 Comparing != and 'is not' for None evaluation
-Result:
-with '!=': 0.040107s
-with 'is not': 0.024099s
-difference 0.016008s
-
+with '!=':     0.042670s
+with 'is not': 0.025590s
 Comparing == and 'is' for True evaluation
-Result:
-with '==': 0.041244s
-with 'is': 0.035748s
-difference 0.005496s
-
+with '==': 0.043992s
+with 'is': 0.037845s
 Comparing != and 'is not' for True evaluation
 Result:
-with '!=': 0.040851s
-with 'is not': 0.034694s
-difference 0.006157s
-
-----------------------------------
-File test/list_loop_test.py
-----------------------------------
-test 1: simple
-test 2: array
-test 3: map
-simple loop: 6.885885s
-array loop: 2.904241s
-map loop: 4.557655s
-
-----------------------------------
-File test/map_test.py
-----------------------------------
-Test native
-Test map
-Native:     140.798425s
-Map:        90.746781s
-Diffenrece: 50.051644s
-
-----------------------------------
-File test/while_test.py
-----------------------------------
-test if
-Test try
-with if  11.379781s
-with try 6.005711s
-
+with '!=':     0.041488s
+with 'is not': 0.034880s
+-----------------------------
+list_loop_test
+-----------------------------
+test 1: simple...done!
+test 2: array...done!
+test 3: map...done!
+simple loop: 6.841646s
+array loop:  2.888767s
+map loop:    4.468139s
+-----------------------------
+map_test
+-----------------------------
+Test native...done!
+Test map...done!
+Native:     134.687798s
+Map:        88.249895s
+Diffenrece: 46.437903s
+-----------------------------
+while_test
+-----------------------------
+test if...done!
+Test try...done!
+with if  14.585178s
+with try 6.104733s
